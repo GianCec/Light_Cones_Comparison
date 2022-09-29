@@ -21,7 +21,7 @@ function imgSetup(){
     }
 
     for(let i=0; i<3; i++){
-       txtGraphics[i]=createGraphics(width,height);
+        txtGraphics[i]=createGraphics(width,height);
 
         imgG[i]=[];
          axisImg[i]=[];
