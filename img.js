@@ -21,7 +21,7 @@ function imgSetup(){
     }
 
     for(let i=0; i<3; i++){
-     //   txtGraphics[i]=createGraphics(width,height);
+       txtGraphics[i]=createGraphics(width,height);
 
         imgG[i]=[];
          axisImg[i]=[];
@@ -72,19 +72,19 @@ function imgDraw(){
     }
 
     if(bPS[0].State){
-    //    image(formulas0[I],xForm,yForm+2*bd,wForm,hForm);
+        image(formulas0[I],xForm,yForm+2*bd,wForm,hForm);
 
         let j;
     for(let i=0; i<3; i++){
       j=setPosition(i);
-  //   image(imgG[j][int(t)],ximg[i],yimg[i]);
+     image(imgG[j][int(t)],ximg[i],yimg[i]);
               image(txtMain,0,0);
 
         }
         image(txtDemo[0],0,0);
         let s;
         s=convertState();
-     //   image(txtGraphics[s],0,0);
+        image(txtGraphics[s],0,0);
 
     }
 
