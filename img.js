@@ -126,7 +126,7 @@ function imgDraw(){
 
 function TestMode(){
   push();
-  fill(0);
+  fill(255,0,0);
   rect(width*0.005,height*0.12*1.7,width/3,height/3);
   pop();
 
