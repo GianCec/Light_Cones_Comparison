@@ -122,7 +122,6 @@ function imgDraw(){
         image(txtMain,0,0);
         timeText(Tbar.x,Tbar.y,Tbar.l,Tbar.h);
 
- TestMode();
 }
 
 function TestMode(){
