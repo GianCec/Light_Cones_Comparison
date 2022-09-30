@@ -77,6 +77,7 @@ function draw() {
   background(0);
   commandDraw();
   imgDraw();
+  TestMode();
   if(bTool.State){
   timeLine();
   MTool();
