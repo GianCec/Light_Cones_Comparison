@@ -122,6 +122,15 @@ function imgDraw(){
         image(txtMain,0,0);
         timeText(Tbar.x,Tbar.y,Tbar.l,Tbar.h);
 
+ TestMode();
+}
+
+function TestMode(){
+  push();
+  fill(0);
+  rect(width*0.005,height*0.12*1.7,width/3,height/3);
+  pop();
+
 }
 
 
