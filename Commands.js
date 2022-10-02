@@ -58,7 +58,7 @@ let bt=[];
    bCoo[2]=new button(bx,byCoo+bdyCoo,bd,true,true);
    buttonText(txtDemo[0],bCoo[2],"Minkowski metric");
 
-   bTool=new button(bx,byCoo-4*bdyCoo,bd,true,false);
+   bTool=new button(bx,byCoo-4*bdyCoo,bd,true,true);
    buttonText(txtDemo[0], bTool,"Show measuring tools");
    bRel=new button(bx,byCoo-4*bdyCoo,bd,true,false);
    buttonText(txtDemo[1], bRel,"Show relation between Particle Horizon and Past light cone");
